@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+	--black:#141414;
+    --white:#e5e5e5;
+    --white-variant:#c5c5c5;
+    --black-variant:#0e0d0d;
+}
+
+body {
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.App .header{
+	display: flex;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 100%;
+}
+
+.header h3{
+	color: var(--black);
+    
+    font-family: 'Inter', sans-serif;
+
+    margin-left: 25px;
+}
+
+#runCodeButton{
+    background-color: var(--white-variant);
+    color: var(--black-variant);
+    
+    border: none;
+    outline: none;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.io-box{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.input, .output{
+    width: 100%;
+}
+
+.input #inputCodeBox, .output #outputCodeBox{
+    width: 95%;
+
+    background-color: var(--white);
+    color: var(--black-variant);
+    
+    border: none;
+    outline: none;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    resize: none;
+
+    white-space: pre-line;
+}
